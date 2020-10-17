@@ -1,0 +1,76 @@
+h1{
+    color: white;
+    margin-left: 30px;
+
+}
+
+
+
+.menu{
+    margin-right: 30px;
+}
+
+.menu a{
+    margin-left: 20px;
+
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: blue;
+}
+
+.header{
+background-color: rgb(95, 158, 160);
+display: flex;
+justify-content: space-between;
+}
+
+.grid{
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: rgba(247, 4, 77, 0.863);
+    background-image: url(https://static.dribbble.com/users/1770290/screenshots/6183149/bg_79.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item{
+    position: relative;
+
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+
+}
+
+.item:hover img{
+    opacity: 0.33;
+    transition: opacity .6s;
+}
